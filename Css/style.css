@@ -4,7 +4,7 @@
 }
 body{
     /*background-image: url(/S-Nails/Img/Bg/Background.png);*/
-    background-image: linear-gradient(#000066,#ffffff);
+    background-image: linear-gradient(#000066 25%,#ffffff);
     background-size: cover;
 }
 .center{
