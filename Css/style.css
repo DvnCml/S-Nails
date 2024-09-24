@@ -27,7 +27,7 @@ body{
     /*background-color: #000066;*/
     background-image: url(/S-Nails/Img/Profile2-1.png);
     background-size: cover;
-    border: solid 3px #b8dcff /*chocolate*/;
+    border: solid 3px #000066 /*chocolate*/;
 }
 
 .descripcion{
