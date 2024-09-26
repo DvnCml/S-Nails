@@ -78,7 +78,6 @@ h2{
 .btn:hover{
     background-color: #000066;
     box-shadow: 0px 0px 10px #000066;
-    box-shadow: none;
     padding: 23px 35px;
 }
 img{
