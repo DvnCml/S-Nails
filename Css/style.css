@@ -4,7 +4,7 @@
 }
 body{
     /*background-image: url(/S-Nails/Img/Bg/Background.png);*/
-    background-image: linear-gradient(#ffffff,#000066);
+    background-image: linear-gradient(#ffffff,#051425);
     background-size: cover;
 }
 .center{
@@ -32,7 +32,7 @@ body{
     height: 125px;
     margin: 15px auto;
     border-radius: 50%;
-    background-image: url(/S-Nails/Img/Profile15_Final.png);
+    background-image: url(/S-Nails/Img/Profilel.png);
     background-size: cover;
     border: solid 3px #f2f2f2;
 }
