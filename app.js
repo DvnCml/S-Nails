@@ -739,7 +739,8 @@ function openModal(serviceId) {
 
   const descEl = document.createElement('p');
   descEl.className = 'modal-description';
-  safeText(descEl, service.descripcion);
+  descEl.innerHTML = service.descripcion;
+  /*safeText(descEl, service.descripcion);*/ /*Tener en cuenta para no permitir inyeccion de codigo html*/
 
   // --- Dos botones de contacto (ambos van a WhatsApp) ---
   const buttonsDiv = document.createElement('div');

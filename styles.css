@@ -771,6 +771,7 @@ a {
 .about-social-link img {
   width: 22px;
   height: 22px;
+  filter: brightness(0);
 }
 
 /* En modo oscuro, invertir íconos de redes sociales para que se vean */

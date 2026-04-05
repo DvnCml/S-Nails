@@ -37,39 +37,57 @@
   "servicios": [
     {
       "id": "srv-001",
-      "titulo": "Uñas Acrílicas",
-      "precio": "$---",
+      "titulo": "Manicure tradicional",
+      "precio": "$20000",
       "imagen": "./img/services/1.jpg",
       "imagenReferencia": "./img/services/1.jpg",
-      "descripcion": "Uñas acrílicas de alta calidad con aplicación profesional. Incluye forma, longitud y diseño base a elegir. Resultado duradero y natural que resiste el día a día.",
-      "whatsappMessage": "Hola, estoy interesad@ en Uñas Acrílicas"
+      "descripcion": "Un solo Tono <br> $20000 <br>Con Frances y o decoracion Desde <br>$22000 <br>Polichado <br>$25000 <br> Cambio de esmalte <br> $12000",
+      "whatsappMessage": "Hola, estoy interesad@ en Manicure tradicional"
     },
     {
       "id": "srv-002",
-      "titulo": "Uñas de Gel / GelX",
-      "precio": "$---",
+      "titulo": "Pedicure tradicional",
+      "precio": "$28000",
       "imagen": "./img/services/2.jpg",
       "imagenReferencia": "./img/services/2.jpg",
-      "descripcion": "Uñas de gel con técnica GelX para un acabado natural y brillante. Menos daño en la uña natural, aplicación rápida y resultado espectacular con alta durabilidad.",
-      "whatsappMessage": "Hola, estoy interesad@ en Uñas de Gel"
+      "descripcion": "Un solo Tono <br> $28000 <br>Con Frances y o decoracion Desde <br>$30000 <br>Cambio de esmalte <br> $15000",
+      "whatsappMessage": "Hola, estoy interesad@ en Pedicure tradicional"
     },
     {
       "id": "srv-003",
+      "titulo": "Secado Rapido",
+      "precio": "$25000",
+      "imagen": "./img/services/3.jpg",
+      "imagenReferencia": "./img/services/3.jpg",
+      "descripcion": "Manicure desde <br>$25000 <br>Pedicure Desde <br>$32000 <br>Cambio de esmalte desde <br>$15000",
+      "whatsappMessage": "Hola, estoy interesad@ en Secado Rapido"
+    },
+    {
+      "id": "srv-004",
+      "titulo": "Esmaltado semipermanente",
+      "precio": "$40000",
+      "imagen": "./img/services/4.jpg",
+      "imagenReferencia": "./img/services/4.jpg",
+      "descripcion": "Manicure Pedicure tono liso desde <br>$40000 <br>Manicure Pedicure con frances y o decoracion Desde <br>$45000",
+      "whatsappMessage": "Hola, estoy interesad@ en Esmaltado semipermanente"
+    },
+    {
+      "id": "srv-005",
+      "titulo": "Sistemas Artificiales",
+      "precio": "$65000",
+      "imagen": "./img/services/4.jpg",
+      "imagenReferencia": "./img/services/4.jpg",
+      "descripcion": "Base Ruber Desde <br>$65000 <br>Recubrimiento uñas natural desde <br>$70000 <br>Soft Gel desde <br>$80000 <br> Uñas esculpidas (Gel, PolyGel, Acrilico) desde <br> $90000",
+      "whatsappMessage": "Hola, estoy interesad@ en Sistemas Artificiales"
+    },
+    {
+      "id": "srv-007",
       "titulo": "Diseño Artístico",
       "precio": "$---",
       "imagen": "./img/services/3.jpg",
       "imagenReferencia": "./img/services/3.jpg",
       "descripcion": "Diseños personalizados en uñas naturales o artificiales. Desde francés, baby boomer, hasta arte detallado con piedras, charms y técnicas mixtas que hacen de tus uñas una obra de arte.",
       "whatsappMessage": "Hola, estoy interesad@ en Diseño Artístico"
-    },
-    {
-      "id": "srv-004",
-      "titulo": "Manicura Rusa",
-      "precio": "$---",
-      "imagen": "./img/services/4.jpg",
-      "imagenReferencia": "./img/services/4.jpg",
-      "descripcion": "Manicura rusa con técnica de cutícula seca y esmaltado semi-permanente. Deja las uñas perfectas, con mayor duración del esmalte y un acabado impecable.",
-      "whatsappMessage": "Hola, estoy interesad@ en Manicura Rusa"
     }
   ],
   "testimonios": [

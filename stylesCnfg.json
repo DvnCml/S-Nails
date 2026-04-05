@@ -16,7 +16,7 @@
   "cardShadow": "0 4px 24px rgba(0,0,0,0.07)",
   "fontFamily": "'Poppins', sans-serif",
   "spacing": 8,
-  "modoInicial": "dark",
+  "modoInicial": "light",
   "bannerOverlayOpacity": 0.5,
   "maxContentWidth": 1200,
   "menuFloatingOffset": 20
