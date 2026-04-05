@@ -375,6 +375,10 @@ function renderServicios(servicios) {
   const subtitle = document.createElement('p');
   subtitle.className = 'section-subtitle reveal';
   safeText(subtitle, 'Conoce todo lo que podemos hacer por tus uñas');
+
+  const title1 = document.createElement('h2');
+  title1.className = 'section-title reveal';
+  safeText(title1, 'Garantia');
   
   const subtitle1 = document.createElement('p');
   subtitle1.className = 'section-subtitle1 reveal';
@@ -441,6 +445,7 @@ function renderServicios(servicios) {
   container.appendChild(title);
   container.appendChild(subtitle);
   container.appendChild(grid);
+  container.appendChild(title1);
   container.appendChild(subtitle1);
   section.appendChild(container);
 
