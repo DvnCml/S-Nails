@@ -32,6 +32,10 @@
     "botonServicios": {
       "texto": "Ver Servicios",
       "ancla": "#servicios"
+    },
+    "botonEncuentranos": {
+      "texto": "Ubicacíon",
+      "ancla": "#ubicacion"
     }
   },
   "servicios": [

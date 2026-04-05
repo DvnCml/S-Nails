@@ -336,8 +336,15 @@ function renderBanner(banner, contacto) {
   btnServices.href = banner.botonServicios.ancla;
   safeText(btnServices, banner.botonServicios.texto);
 
+  // Botón de servicios (anchor interno con scroll suave)
+  const botonEncuentranos = document.createElement('a');
+  botonEncuentranos.className = 'btn-banner btn-banner-outline';
+  botonEncuentranos.href = banner.botonEncuentranos.ancla;
+  safeText(botonEncuentranos, banner.botonEncuentranos.texto);
+
   buttons.appendChild(btnContact);
   buttons.appendChild(btnServices);
+  buttons.appendChild(botonEncuentranos);
   content.appendChild(title);
   content.appendChild(subtitle);
   content.appendChild(buttons);
