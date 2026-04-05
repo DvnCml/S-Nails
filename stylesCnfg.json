@@ -1,0 +1,23 @@
+{
+  "colores": {
+    "primary": "#cc5200",
+    "secondary": "#b87333",
+    "accent": "#d4af37",
+    "background": "#FFF8FA",
+    "text": "#2D2D2D",
+    "card": "#FFFFFF",
+    "darkBackground": "#0F0F1A",
+    "darkText": "#F0EAF2",
+    "darkCard": "#1A1A2E",
+    "darkSecondary": "#2D1F3D"
+  },
+  "borderRadius": 14,
+  "buttonPadding": "14px 32px",
+  "cardShadow": "0 4px 24px rgba(0,0,0,0.07)",
+  "fontFamily": "'Poppins', sans-serif",
+  "spacing": 8,
+  "modoInicial": "dark",
+  "bannerOverlayOpacity": 0.5,
+  "maxContentWidth": 1200,
+  "menuFloatingOffset": 20
+}

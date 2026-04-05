@@ -1,59 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/S-Nails/Css/style.css">
-    <title>SoberbiaNails Contacto</title>
-    <link rel="icon" type="image/x-icon" href="Img/nail.png">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soberbia Nails — Servicio profesional de uñas, manicura, pedicura y diseño artístico.">
+  <title>Soberbia Nails</title>
+
+  <!-- Google Fonts: Poppins con varios pesos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Estilos globales (variables CSS mapeadas desde stylesCnfg.json) -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Contenido de previsualizaciopn enlaces -->
     <meta name="author" content="Soberbia Nails">
-    <meta name="description" content="Diseño de uñas a criliaas, cuidado de manos y pies">
+    <meta name="description" content="Servicio profesional de uñas en un ambiente relajante">
     <meta name="keywords" content="uñas, manicura, pedicura, manos, pies">
 
     <meta property="og:title" content="Soberbia Nails" />
     <meta property="og:site_name" content="Soberbia Nails" />
-    <meta property="og:description" content="Diseño de uñas a criliaas, cuidado de manos y pies" />
+    <meta property="og:description" content="Servicio profesional de uñas en un ambiente relajante" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dvncml.github.io/S-Nails/" />
     <meta property="og:image" content="https://dvncml.github.io/S-Nails/Img/Profile1.png" /> 
-    
+
 </head>
 <body>
-    <div class="center">
-        <div class="Fondo">
-            <div class="Profile"></div>
-            <div class="descripcion">
-                <h1>Soberbia Nails</h1>
-                <p>Un espacio especializado en el cuidado y embellecimiento de uñas de manos y pies. Ofrecemos servicios de manicuras, pedicuras, uñas acrílicas poly-gel y otros cuidados, en un ambiente cómodo y relajante.</p>
-                <h2>Contactanos y <br> Síguenos</h2>
-            </div>
-        </div>
-    
-        <div class="btns">
-            <a href="https://wa.me/+573134493588">
-                <button class="btn"><img src="Img/whatsapp.png"> Whatsapp</button>
-            </a>
-            <a href="https://www.tiktok.com/@soberbia_nails?_t=8pwrHiLkEFC&_r=1">
-                <button class="btn"><img src="Img/tiktok.png"> TikTok</button>
-            </a>
-            <a href="https://www.instagram.com/soberbia_nails_/?igsh=MXJnajE1OHNtcnNyNw%3D%3D">
-                <button class="btn"><img src="Img/instagram.png"> Instagram</button>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=61559843874224&mibextid=ZbWKwL">
-                <button class="btn"><img src="Img/facebook.png"> Facebook</button>
-            </a>
-            <a>
-                <button class="btn"><img src="Img/web-design.png"> Pagina</button>
-            </a>
-            <div class="Ubicacion">
-                <a href="https://www.google.com/maps/search/Carrera+103+A+%2378C+-+04,+Local101/@4.7117,-74.115,17z?hl=es&entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D">
-                    <button class="btn"><img src="Img/location.png"> Ubicacion</button>
-                </a>
-    
-                <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3976.3352635926885!2d-74.115!3d4.7117!3m2!1i1024!2i768!4f13.1!2m1!1sCarrera%20103%20A%20%2378C%20-%2004%2C%20Local101!5e0!3m2!1ses!2sco!4v1726800874063!5m2!1ses!2sco" width="100%" height="450" style="border:solid 2px #000066 ;border-radius: 25px;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
-    </body>
+
+  <!-- ============================================
+       PANTALLA DE CARGA
+       Se muestra hasta que app.js cargue los JSON
+       ============================================ -->
+  <div id="loading-screen">
+    <div class="loader-spinner"></div>
+    <p class="loader-text">Cargando...</p>
+  </div>
+
+  <!-- ============================================
+       PANTALLA DE ERROR (oculta por defecto)
+       Se muestra si falla la carga de datos
+       ============================================ -->
+  <div id="error-screen">
+    <p id="error-message">Hubo un problema al cargar el sitio.</p>
+    <button class="btn btn-primary" onclick="location.reload()">Reintentar</button>
+  </div>
+
+  <!-- ============================================
+       TOGGLE MODO OSCURO
+       app.js inserta el ícono (sol/luna)
+       ============================================ -->
+  <button id="dark-toggle" aria-label="Cambiar modo oscuro"></button>
+
+  <!-- ============================================
+       MENÚ FLOTANTE DE CONTACTO
+       app.js renderiza:
+       - .menu-fab (burbuja, móvil)
+       - .menu-options (panel con botones)
+       ============================================ -->
+  <nav id="menu-contacto" aria-label="Contacto rápido"></nav>
+
+  <!-- ============================================
+       CONTENIDO PRINCIPAL
+       app.js renderiza cada sección aquí
+       ============================================ -->
+  <main id="app"></main>
+
+  <!-- ============================================
+       FOOTER
+       app.js renderiza el contenido
+       ============================================ -->
+  <footer id="site-footer"></footer>
+
+  <!-- ============================================
+       MODAL (overlay + contenedor vacío)
+       app.js llena el contenido dinámicamente
+       ============================================ -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div id="modal-container" class="modal-container"></div>
+  </div>
+
+  <!-- Lógica de la aplicación -->
+  <script src="app.js"></script>
+</body>
 </html>

@@ -1,0 +1,114 @@
+{
+  "nombreNegocio": "Soberbia Nails",
+  "contacto": {
+    "whatsapp": "573134493588",
+    "cel": "573134493588",
+    "instagram": "https://www.instagram.com/soberbia_nails_",
+    "tiktok": "https://www.tiktok.com/@soberbia_nails",
+    "facebook": "https://www.facebook.com/profile.php?id=61559843874224&mibextid=ZbWKwL"
+  },
+  "iconos": {
+    "whatsapp": "./img/icon/whatsapp.svg",
+    "cel": "./img/icon/cel.svg",
+    "instagram": "./img/icon/instagram.svg",
+    "tiktok": "./img/icon/tiktok.svg",
+    "facebook": "./img/icon/facebook.svg",
+    "starFilled": "./img/icon/star-filled.svg",
+    "starEmpty": "./img/icon/star-empty.svg",
+    "mapPin": "./img/icon/map-pin.svg",
+    "menu": "./img/icon/menu.svg",
+    "close": "./img/icon/close.svg",
+    "sun": "./img/icon/sun.svg",
+    "moon": "./img/icon/moon.svg"
+  },
+  "banner": {
+    "imagen": "./img/ui/banner.jpg",
+    "titulo": "Soberbia Nails",
+    "subtitulo": "Servicio profesional de uñas en un ambiente relajante",
+    "botonContacto": {
+      "texto": "Agendar Cita",
+      "whatsappMessage": "Hola, me gustaría agendar una cita"
+    },
+    "botonServicios": {
+      "texto": "Ver Servicios",
+      "ancla": "#servicios"
+    }
+  },
+  "servicios": [
+    {
+      "id": "srv-001",
+      "titulo": "Uñas Acrílicas",
+      "precio": "$---",
+      "imagen": "./img/services/1.jpg",
+      "imagenReferencia": "./img/services/1.jpg",
+      "descripcion": "Uñas acrílicas de alta calidad con aplicación profesional. Incluye forma, longitud y diseño base a elegir. Resultado duradero y natural que resiste el día a día.",
+      "whatsappMessage": "Hola, estoy interesad@ en Uñas Acrílicas"
+    },
+    {
+      "id": "srv-002",
+      "titulo": "Uñas de Gel / GelX",
+      "precio": "$---",
+      "imagen": "./img/services/2.jpg",
+      "imagenReferencia": "./img/services/2.jpg",
+      "descripcion": "Uñas de gel con técnica GelX para un acabado natural y brillante. Menos daño en la uña natural, aplicación rápida y resultado espectacular con alta durabilidad.",
+      "whatsappMessage": "Hola, estoy interesad@ en Uñas de Gel"
+    },
+    {
+      "id": "srv-003",
+      "titulo": "Diseño Artístico",
+      "precio": "$---",
+      "imagen": "./img/services/3.jpg",
+      "imagenReferencia": "./img/services/3.jpg",
+      "descripcion": "Diseños personalizados en uñas naturales o artificiales. Desde francés, baby boomer, hasta arte detallado con piedras, charms y técnicas mixtas que hacen de tus uñas una obra de arte.",
+      "whatsappMessage": "Hola, estoy interesad@ en Diseño Artístico"
+    },
+    {
+      "id": "srv-004",
+      "titulo": "Manicura Rusa",
+      "precio": "$---",
+      "imagen": "./img/services/4.jpg",
+      "imagenReferencia": "./img/services/4.jpg",
+      "descripcion": "Manicura rusa con técnica de cutícula seca y esmaltado semi-permanente. Deja las uñas perfectas, con mayor duración del esmalte y un acabado impecable.",
+      "whatsappMessage": "Hola, estoy interesad@ en Manicura Rusa"
+    }
+  ],
+  "testimonios": [
+    {
+      "id": "test-001",
+      "nombre": "María García",
+      "comentario": "Excelente servicio, siempre salgo encantada con mis uñas. El equipo es muy profesional y el ambiente es súper agradable. Ya soy clienta frecuente.",
+      "calificacion": 5
+    },
+    {
+      "id": "test-002",
+      "nombre": "Laura Méndez",
+      "comentario": "El lugar es hermoso y los resultados son increíbles. Ya llevo más de un año como clienta fiel y cada visita supera mis expectativas.",
+      "calificacion": 5
+    },
+    {
+      "id": "test-003",
+      "nombre": "Sofía Ramírez",
+      "comentario": "Muy buena atención y calidad en cada servicio. Los precios son justos para el trabajo tan bonito que hacen. Totally recomendado.",
+      "calificacion": 4
+    }
+  ],
+  "ubicacion": {
+    "imagen": "./img/ui/Local.jpg",
+    "direccion": "Carrera 103A # 78C - 04, Local 101",
+    "mapsEmbed": "https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3976.3352635926885!2d-74.115!3d4.7117!3m2!1i1024!2i768!4f13.1!2m1!1sCarrera%20103%20A%20%2378C%20-%2004%2C%20Local101!5e0!3m2!1ses!2sco!4v1726800874063!5m2!1ses!2sco"
+  },
+  "about": {
+    "titulo": "Sobre Nosotros",
+    "descripcion": "En Soberbia Nails nos apasiona el arte en tus manos. Con varios años de experiencia, nuestro equipo de nail artists certificados se dedica a realzar tu belleza natural con técnicas de vanguardia y productos de la más alta calidad.\n\nCreemos que cada uña es un lienzo en blanco, y nuestro compromiso es hacer de cada visita una experiencia única de relajación y transformación. Te esperamos con los brazos —y las manos— abiertas.",
+    "redesSociales": [
+      { "nombre": "Instagram", "url": "https://www.instagram.com/soberbia_nails_", "icono": "./img/icon/instagram.svg" },
+      { "nombre": "TikTok", "url": "https://www.tiktok.com/@soberbia_nails", "icono": "./img/icon/tiktok.svg" },
+      { "nombre": "Facebook", "url": "https://www.facebook.com/profile.php?id=61559843874224&mibextid=ZbWKwL", "icono": "./img/icon/facebook.svg" },
+      { "nombre": "WhatsApp", "url": "https://wa.me/573134493588", "icono": "./img/icon/whatsapp.svg" }
+    ]
+  },
+  "footer": {
+    "linea1": "© 2026 Soberbia Nails. Todos los derechos reservados.",
+    "linea2": "Diseñado con dedicación para ti."
+  }
+}
