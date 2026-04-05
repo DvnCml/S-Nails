@@ -121,6 +121,16 @@ a {
   margin-right: auto;
 }
 
+.section-subtitle1 {
+  text-align: center;
+  color: var(--fg);
+  opacity: 0.7;
+  font-size: 1rem;
+  max-width: 900px;
+  margin: auto;
+  padding-top: 15px;
+}
+
 /* ==========================================================
    ESTADO DE CARGA
    ========================================================== */

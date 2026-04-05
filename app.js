@@ -368,6 +368,10 @@ function renderServicios(servicios) {
   const subtitle = document.createElement('p');
   subtitle.className = 'section-subtitle reveal';
   safeText(subtitle, 'Conoce todo lo que podemos hacer por tus uñas');
+  
+  const subtitle1 = document.createElement('p');
+  subtitle1.className = 'section-subtitle1 reveal';
+  safeText(subtitle1, 'los valores de los sistemas varian segun largo y diseño; Los sistemas de larga duracion cuenta con un maximo de 4 días de garantia para hacer efectiva la garantia se debe enviar una foto dentro de este plazo para comprobar el estado del material');
 
   const grid = document.createElement('div');
   grid.className = 'services-grid';
@@ -430,6 +434,7 @@ function renderServicios(servicios) {
   container.appendChild(title);
   container.appendChild(subtitle);
   container.appendChild(grid);
+  container.appendChild(subtitle1);
   section.appendChild(container);
 
   return section;
