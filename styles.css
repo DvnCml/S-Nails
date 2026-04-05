@@ -99,6 +99,14 @@ a {
   position: relative;
 }
 
+.section-title1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 35px;
+  position: relative;
+}
+
 /* Línea decorativa bajo el título */
 .section-title::after {
   content: '';
